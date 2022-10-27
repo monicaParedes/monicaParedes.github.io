@@ -21,10 +21,9 @@ h1 {
 }
 
 .title {
-  height: 20px;
-  width: 20px;
+  font-size: 20px;
   color: black;
-  margin: 10em;
+  margin: 2em;
 }
 
 .sizer {

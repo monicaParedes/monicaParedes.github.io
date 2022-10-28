@@ -1,2 +1,4 @@
 # monicaParedes.github.io
-my second attempt at a wedsite woo
+Here is all my code that goes into my website. 
+Will the end product look totally different very iteration? Yes yes it will. 
+

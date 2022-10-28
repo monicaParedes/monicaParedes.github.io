@@ -24,6 +24,11 @@ h1 {
   font-size: 20px;
   color: black;
   margin: 2em;
+  text-align: center;
+}
+
+.center {
+text-align: center;
 }
 
 .sizer {

@@ -1,39 +1,32 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-  font-size: 16px;
+header {
+    display: flex;
+    justify-content: space-between; /* Pushes name to left, nav to right */
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
 }
 
-h1 {
-  font-size: 35px;
-  font-style: italic;
-  color: #702963;
-  font-family: Monospace, Monaco;
-  text-align: center;
+.logo {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    /* This creates the color gradient effect */
+    background: linear-gradient(45deg, #007aff, #ff2d55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Adds a subtle "pop" */
+    transition: transform 0.3s ease;
+    cursor: default;
 }
 
-.big {
-  height: 100px;
-  width: 100px;
-  background-color: green;
+.logo:hover {
+    transform: scale(1.05);
 }
 
-.title {
-  font-size: 20px;
-  color: black;
-  margin: 2em;
-  text-align: center;
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
 }
-
-.center {
-text-align: center;
-}
-
-.sizer {
-  height: 50px;
-  width: 50px;
-}
-
-

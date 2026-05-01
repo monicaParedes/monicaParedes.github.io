@@ -1,32 +1,58 @@
-header {
+<style>
+  
+body {
+    background-color: #FFF4EC; /* Classic Beige */
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+section {
+    max-width: 900px; /
+    margin: 0 auto;   
+    padding: 2rem 5%; 
+}
+
+.main-header {
+    /* Sticky Setup */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keeps it above all other content */
+    
+    /* Layout & Background */
     display: flex;
-    justify-content: space-between; /* Pushes name to left, nav to right */
+    justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid #eee;
+    padding: 1rem 5%; /* Adds breathing room on the sides */
+    background-color: #966B9D; /* Darkish Brown */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: 800;
-    letter-spacing: -1px;
-    /* This creates the color gradient effect */
-    background: linear-gradient(45deg, #007aff, #ff2d55);
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+    background: linear-gradient(90deg, #331832, #331832);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    /* Adds a subtle "pop" */
-    transition: transform 0.3s ease;
-    cursor: default;
-}
-
-.logo:hover {
-    transform: scale(1.05);
+    cursor: pointer;
 }
 
 nav a {
-    margin-left: 20px;
+    color: white; /* Make options white */
     text-decoration: none;
-    color: #555;
-    font-weight: 500;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
 }
+
+nav a:hover {
+    opacity: 0.7; /* Subtle feedback when hovering */
+}
+
+
+        
+</style>
